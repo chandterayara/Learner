@@ -1,16 +1,16 @@
- public class Slashformat
+public class Slashformat
 {
-public static String retrivecharrow(char c,int i)
-{
-String p="";
-switch(c)
-{
-case 'c':p=retriverowC(c,i);break;
-case 'a':p=retriverowA(c,i);break;
-}
-return(p);
-}
-public static String retriverowA(char c, int i)
+  public static String retrivecharrow(char c,int i)
+  {
+    String p="";
+    switch(c)
+    {
+      case 'c':p=retriverowC(c,i);break;
+      case 'a':p=retriverowA(c,i);break;
+    }
+    return(p);
+  }
+  public static String retriverowA(char c, int i)
 {
 String y="";
 switch(i)
