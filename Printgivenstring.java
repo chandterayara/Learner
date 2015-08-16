@@ -1,7 +1,7 @@
 import Mypack.*;
 class Printgivenstring
 {
-public static String rowbuilder(int i,String s, Letterprinter newformat)
+public static String rowbuilder(int i,String s, Letterprinter printformat)
 {
 int l,j;
 char c; 
@@ -27,7 +27,6 @@ LetterPrinter printFormat ;
 if(format=""){
 printFormat  = new LetterFormat();
 }
-r=rowbuilder(i,s,printFormat);
 for(i=1;i<9;i++)
 {
 r=rowbuilder(i,s,printformat);
