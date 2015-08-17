@@ -24,7 +24,8 @@ String r;
 int i;
 String s=args[0];
 LetterPrinter printFormat ; 
-if(format=""){
+if(args[0]="")
+{
 printFormat  = new LetterFormat();
 }
 for(i=1;i<9;i++)
