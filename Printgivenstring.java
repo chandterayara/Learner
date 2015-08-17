@@ -12,7 +12,7 @@ Letterrows q=new Letterrows();
 for(j=0;j<l;j++)
 {
 c=s.charAt(j);
-rowstring=q.getcharrow(c,i);
+rowstring=q.getcharrow(c,i,printformat);
 x=x+"     "+rowstring;
 
 }
