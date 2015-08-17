@@ -8,7 +8,7 @@ char c;
 String x="";
 String rowstring;
 l=s.length( );
-Letterrows q=new Letterrows();
+Charformat q=new Charformat();
 for(j=0;j<l;j++)
 {
 c=s.charAt(j);
