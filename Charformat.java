@@ -1,7 +1,7 @@
 package Mypack;
 public class Charformat extends Letterprinter
 {
-public static String getrowA( char c,int i)
+public static String getrowA( char c,int i,char ch)
 {
 {
 String y="";
