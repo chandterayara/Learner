@@ -3,23 +3,22 @@ public class Charformat extends Letterprinter
 {
 public static String getrowA( char c,int i)
 {
+{
 String y="";
+String ch=""+ch;
 switch(i)
 {
-case 1:y="* * * * * *";break;
- 
-case 2:y="* * * * * *";break;
-case 3:y="* *     * *";break;
+case 1:y="ch+ch+ch+ch+ch+ch+ch";break;
+case 2:y="ch+ch+ch+ch+ch+ch+ch";break; 
 
-case 4:y="* *     * *";break;
+case 3:y="ch+ ch+"     "ch+ch";break;
+case 4:y="ch+ ch+"     "ch+ch";break;
 
-case 5:y="* * * * * *";break;
+case 5:y="ch+ch+ch+ch+ch+ch+ch";break;
 
-case 6:y="* * * * * *";break;
-
-case 7:y="* *     * *";break;
-
-case 8:y="* *     * *";break;
+case 6:y="ch+ch+ch+ch+ch+ch+ch";break;
+case 7:y="ch+ ch+"     "ch+ch";break;
+case 8:y="ch+ ch+"     "ch+ch";break;
  
 }
 return(y);
