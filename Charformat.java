@@ -3,6 +3,10 @@ public class Charformat extends Letterprinter
 {
  public static char printCharcter;
  
+ public static void setPrintCharacter(char inputCharcter) {
+    printCharcter = inputCharcter;  
+ }
+ 
 public static String getrowA( char c,int i,char ch)
 {
 {
