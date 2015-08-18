@@ -24,7 +24,7 @@ String s=args[0];
 LetterPrinter printFormat ; 
 if(args[1]="Myfont")
 {
-  printFormat  = new LetterFormat();
+  printFormat  = new Slashformat();
 } else {
   printFormat  = new CharFormat();
   printFormat.setPrintCharacter(args[1]);
