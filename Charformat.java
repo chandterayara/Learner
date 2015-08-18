@@ -11,7 +11,7 @@ public static String getrowA( char c,int i,char ch)
 {
 {
 String y="";
-String ch=""+ch;
+String ch=""+printcharcter;
 switch(i)
 {
 case 1:y=ch+ch+ch+ch+ch+ch+ch;break;
