@@ -1,17 +1,15 @@
-package Mypack;
 public class Charformat extends Letterprinter
 {
- public static char printCharcter;
+ public static String printcharcter;
  
- public static void setPrintCharacter(char inputCharcter) {
-    printCharcter = inputCharcter;  
+ public static void setPrintcharacter(String inputcharcter) {
+    printcharcter = inputcharcter;  
  }
  
-public static String getrowA( char c,int i,char ch)
-{
+public String getrowA( char c,int i)
 {
 String y="";
-String ch=""+printcharcter;
+String ch=printcharcter;
 switch(i)
 {
 case 1:y=ch+ch+ch+ch+ch+ch+ch;break;
@@ -30,7 +28,7 @@ case 8:y=ch+ch+"     "+ch+ch;break;
 return(y);
 }
 
-public static String getrowH(char c,int i)
+public String getrowH(char c,int i)
 {
 String t="";
 switch(i)
@@ -47,7 +45,7 @@ case 8:t="*  *        *  *";break;
 return(t);
 }
 
-public static String getrowN(char c,int i)
+public String getrowN(char c,int i)
 {
 String m="";
 switch(i)
@@ -63,7 +61,7 @@ case 8:m="*  *          *  *";break;
 }
 return(m);
 }
-public static String getrowC( char c,int i)
+public String getrowC( char c,int i)
 {
 String z="";
 switch(i)
