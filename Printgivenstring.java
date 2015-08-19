@@ -1,4 +1,3 @@
-import Mypack.*;
 class Printgivenstring
 {
   public static String rowbuilder(int i,String s, Letterprinter printformat)
@@ -21,13 +20,13 @@ public static void main(String args[])
 String r; 
 int i;
 String s=args[0];
-LetterPrinter printFormat ; 
-if(args[1]="Myfont")
+Letterprinter printformat; 
+if(args[1]=="Myfont")
 {
-  printFormat  = new Slashformat();
+  printformat  = new Slashformat();
 } else {
-  printFormat  = new CharFormat();
-  printFormat.setPrintCharacter(args[1]);
+  printformat  = new Charformat();
+  printformat.setprintcharacter(args[1]);
 }
 for(i=1;i<9;i++)
 {
