@@ -1,4 +1,4 @@
- public class Slashformat
+ public class Slashformat extends Letterfomat
 {
 
 public static string getrowC(char c, int i)
