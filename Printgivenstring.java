@@ -21,11 +21,19 @@ String r;
 int i;
 String s=args[0];
 Letterprinter printformat; 
-if(args[1]=="Myfont")
+String u=args[1];
+if(args[1].equals("Myfont"))
 {
   printformat  = new Slashformat();
-} else {
-  printformat  = new Charformat();
+} else if(args[1].equals("polo") 
+{
+  Poloformat format1=new poloformat();
+  printformat=format1;
+}
+else
+{
+  Charformat format  = new Charformat();
+  printformat=format;
   printformat.setprintcharacter(args[1]);
 }
 for(i=1;i<9;i++)
